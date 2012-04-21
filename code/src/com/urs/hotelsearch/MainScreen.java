@@ -115,7 +115,7 @@ public class MainScreen extends Activity {
 				// city name and hotel chain to the new intent.
 				if (!txtCityName.getText().toString().trim().equals("")) {
 					Intent i = new Intent(getBaseContext(), HotelList.class);
-					i.putExtra("cityName", txtCityName.getText().toString().replace(" ", "+"));
+					i.putExtra("cityName", txtCityName.getText().toString().replace(" ", "+").trim());
 					i.putExtra("hotelChain", strHotelChain);
 					startActivity(i);
 				}

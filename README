@@ -1,0 +1,4 @@
+A facebook, tripadvisor mashup.
+
+Gets the list of hotels for the hotel chain and city specified.
+The data is from tripadvisor.com

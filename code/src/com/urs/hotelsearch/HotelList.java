@@ -162,6 +162,7 @@ public class HotelList extends Activity implements Runnable {
 				Toast.makeText(getBaseContext(),
 						"No Hotels Found, try something else.",
 						Toast.LENGTH_LONG).show();
+				finish();
 			}
 		}
 	};
